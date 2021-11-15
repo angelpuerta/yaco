@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  places:
+    image: ${DOCKER_REGISTRY-}places
+    build:
+      context: .
+      dockerfile: api/places/Dockerfile

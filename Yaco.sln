@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{96B8EF52-0E32-4B85-8F7D-894F49634D47}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "places", "api\places\places.csproj", "{E9CA5004-797D-4631-A359-87AF66FC3E88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gateways", "gateways", "{A0FE2291-F5D9-4A4A-BEFB-C96115388198}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A304C545-A328-44B6-A4D9-64E4B92FE159}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "autorization", "autorization", "{3738DE42-098E-4149-B3A5-D269C8C6576E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{091D8F6C-1D29-4069-A4BD-CBA9D7C3C848}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "authentication", "authentication\authentication\authentication.csproj", "{B99736EE-9219-49F9-831A-6B80B00FFCE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9CA5004-797D-4631-A359-87AF66FC3E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9CA5004-797D-4631-A359-87AF66FC3E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9CA5004-797D-4631-A359-87AF66FC3E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9CA5004-797D-4631-A359-87AF66FC3E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A304C545-A328-44B6-A4D9-64E4B92FE159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A304C545-A328-44B6-A4D9-64E4B92FE159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A304C545-A328-44B6-A4D9-64E4B92FE159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A304C545-A328-44B6-A4D9-64E4B92FE159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B99736EE-9219-49F9-831A-6B80B00FFCE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B99736EE-9219-49F9-831A-6B80B00FFCE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B99736EE-9219-49F9-831A-6B80B00FFCE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B99736EE-9219-49F9-831A-6B80B00FFCE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9CA5004-797D-4631-A359-87AF66FC3E88} = {96B8EF52-0E32-4B85-8F7D-894F49634D47}
+		{091D8F6C-1D29-4069-A4BD-CBA9D7C3C848} = {96B8EF52-0E32-4B85-8F7D-894F49634D47}
+		{B99736EE-9219-49F9-831A-6B80B00FFCE4} = {3738DE42-098E-4149-B3A5-D269C8C6576E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04BBF54A-6CE8-4588-8D0D-FF87E333F36A}
+	EndGlobalSection
+EndGlobal
